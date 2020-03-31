@@ -25,7 +25,7 @@ With this app your can filter several types of movies, and by clicking on the mo
 
 ## 🚀 Preview
 
-For a preview screen..see images in 'preview' folder
+https://evibreukers.github.io/moviePicker/
 
 ENJOY!
 
