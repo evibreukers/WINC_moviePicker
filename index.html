@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- JAVASCRIPT -->
+    <script defer src="database.js"></script>
+    <script defer src="script.js"></script>
+    
+</head>
+<body>
+    
+    <div id="topWrapper">
+        <button id="filterFav1" class="filterFav" >FAVORITE MOVIES</button>
+        
+        <header>
+            <img src="images/bit.svg" alt="bit monster">
+            <h1>MOVIE PICKER</h1>
+            <img src="images/bit.svg" alt="bit monster">
+        </header>
+
+        <nav>
+            <input type="radio" name="filter" id="filter0" value="filter0" checked>
+            <label for="filter0">All movies</label>
+        
+            <input type="radio" name="filter" id="filter1" value="filter1">
+            <label for="filter1">Newest movies</label>
+        
+            <input type="radio" name="filter" id="filter2" value="filter2">
+            <label for="filter2">Avengers movies</label>
+        
+            <input type="radio" name="filter" id="filter3" value="filter3">
+            <label for="filter3">X-men movies</label>
+        
+            <input type="radio" name="filter" id="filter4" value="filter4">
+            <label for="filter4">Princess movies</label>
+        
+            <input type="radio" name="filter" id="filter5" value="filter5">
+            <label for="filter5">Batman movies</label>
+
+            <div id="searchWrapper">
+                <button id="filterFav2" class="filterFav" >FAVORITE MOVIES</button>
+                    <div id="searchBox">
+                        <input type="text" name="search" id="searchInput" placeholder="search movie">
+                        <button id="searchBtn">SEARCH</button>
+                    </div>
+            </div>
+        </nav>
+    </div>
+    
+    <main>
+        <ul id="movieBox"></ul>
+    </main>
+
+     <!-- HIDDEN ELEMENT -->
+     <div id="popUp">
+        <div id="closeBtn">X</div>
+        <h2 id="popUpText"></h2>
+    </div>
+
+
+</body>
+</html>
+
+
+
