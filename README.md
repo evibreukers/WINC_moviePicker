@@ -7,6 +7,10 @@ Winc Academy's 2nd project of the Front-end Development traineeship
 The goal was making a movie searcher using JavaScript and a database with movies (see database.js). 📽️
 With this app your can filter several types of movies, and by clicking on the movies you get linked to its IMDB page.
 
+## 💬 Tools
+
+HTML, CSS, JavaScript
+
 ## 💬 Requirements
 
 * as user you ca see a list of available movies + poster (--> button all movies)
