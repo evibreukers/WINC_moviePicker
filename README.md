@@ -29,7 +29,11 @@ HTML, CSS, JavaScript
 
 ## 🚀 Preview
 
-https://evibreukers.github.io/moviePicker/
+Pick your fav movie:
+https://moviepicker-js.netlify.app
+
+![alt text](preview1.png)
+![alt text](preview2.png)
 
 ENJOY!
 
